@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+
+  <test thread-count="2" parallel="tests" name="Testrunner_1">
+    <classes>
+      <class name="com.crm.AutoDesk.LeadsTests.TC_03_CreatNewLeadByFillAllTheMandatoryFieldsAndSaveTest"/>
+       </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" parallel="tests" name="Testrunner_2">
+    <classes>
+      <class name="com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest"/>
+       </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" parallel="tests" name="Testrunner_3">
+    <classes>
+      <class name="com.crm.AutoDesk.LeadsTests.TC_04_CreateNewLeadBykeepAllTheFieldsBlankAndSaveTest"/>
+        </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="Testrunner_4">
+    <classes>
+      <class name="com.crm.AutoDesk.LeadsTests.TC_05_CreatNewLeadByKeepAllTheMandatoryFieldBlankAndSaveTest"/>
+       </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" parallel="tests" name="Testrunner_5">
+    <classes>
+      <class name="com.crm.AutoDesk.LeadsTests.TC_02_CreatNewLeadsByFillAllTheFieldsAndSaveTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

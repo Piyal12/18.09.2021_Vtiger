@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-17T14:46:11 IST" name="Default suite" finished-at="2021-09-17T14:46:34 IST" duration-ms="22321">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="TC_01_NavigateToLeadPageTest.NavigateToLeadPageTest()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" name="NavigateToLeadPageTest" class="com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2021-09-17T14:46:11 IST" name="Default test" finished-at="2021-09-17T14:46:34 IST" duration-ms="22321">
+      <class name="com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:11 IST" name="connectDB" finished-at="2021-09-17T14:46:11 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:11 IST" name="launchBrowser" finished-at="2021-09-17T14:46:17 IST" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:17 IST" name="loginToApp" finished-at="2021-09-17T14:46:22 IST" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="NavigateToLeadPageTest()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:22 IST" name="NavigateToLeadPageTest" finished-at="2021-09-17T14:46:32 IST" duration-ms="10094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToLeadPageTest -->
+        <test-method is-config="true" signature="logoutOfApp()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:32 IST" name="logoutOfApp" finished-at="2021-09-17T14:46:33 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:33 IST" name="closeBrowser" finished-at="2021-09-17T14:46:34 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest@201a4587]" started-at="2021-09-17T14:46:34 IST" name="closeDB" finished-at="2021-09-17T14:46:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.AutoDesk.LeadsTests.TC_01_NavigateToLeadPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
